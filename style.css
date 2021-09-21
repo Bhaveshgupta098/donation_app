@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Ultra&display=swap");
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --head_font: "Ultra", serif;
+  --font: "Dancing Script", cursive;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 1365.5px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(rgba(168, 165, 165, 0.034), rgba(170, 169, 169));
+  font-family: var(--head_font);
+  line-height: 5rem;
+}
+
+.navbar_logo {
+  font-size: 1.7rem;
+  color: black;
+}
+.navbar_option {
+  text-transform: capitalize;
+
+  font-size: 1.2rem;
+}
+.navbar_logo:hover {
+  color: rgb(67, 68, 68);
+}
+.navbar_option:hover {
+  color: rgb(43, 43, 43);
+}
+
+.mid_section img {
+  width: 1365.5px;
+  height: 573px;
+}
+
+.mid_section button {
+  border: none;
+  padding: 10px;
+  background: rgba(129, 158, 238, 0.281);
+
+  font-family: var(--head_font);
+  font-size: 1.4rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 4px rgb(109, 108, 108);
+}
+.donte_button {
+  position: absolute;
+  left: 45%;
+  top: 60%;
+}
+.mid_section button:hover {
+  background: rgba(69, 16, 104, 0.87);
+  color: rgb(179, 174, 174);
+}
+
+.contact_container {
+  background: rgba(80, 79, 79, 0.527);
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  padding: 50px;
+  border-radius: 20px;
+  font-family: var(--font);
+  font-size: 1.5rem;
+  color: white;
+  text-transform: capitalize;
+  width: 600px;
+}
+.name,
+.email,
+.meassage {
+  margin: 20px auto;
+}
+
+.contact_container input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  line-height: 2rem;
+}
+.contact_container textarea {
+  border-radius: 5px;
+}
+.submit_button {
+  position: relative;
+  left: 34%;
+  margin-top: 10px;
+}
+
+a {
+  cursor: pointer;
+}
